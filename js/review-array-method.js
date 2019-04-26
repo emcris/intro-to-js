@@ -17,5 +17,5 @@ console.log(arr1);
 arr1.splice(1, 1);
 console.log(arr1);
 
-var arr2 = ['papya', 'banana', 'pluot'];
-console.log(arr2);
+var copyOfArr1= arr1.slice();
+console.log(copyOfArr1);
